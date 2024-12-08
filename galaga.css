@@ -34,7 +34,7 @@ galaga {
 	height: 288px;
 	margin-top: -288px;
 	margin-left: -224px;
-	
+
 }
 
 
@@ -122,7 +122,7 @@ galaga > footer .reserve {
 }
 /* Star definitions start */
 galaga starfield {
-	z-index: -20;  
+	z-index: -20;
 }
 galaga star {
 	position: absolute;
@@ -914,7 +914,7 @@ galaga missle.alt {
 	0%, 100%{
 		margin-left: -6px;
 	}
-	
+
 	50% {
 		margin-left: 25px;
 	}
@@ -1057,7 +1057,7 @@ galaga missle.alt {
 .galaga .gyaraga.explode.one > .explodeable > .particle:nth-child(20),
 .galaga .gyaraga.explode.one > .explodeable > .particle:nth-child(21),
 .galaga .gyaraga.explode.one > .explodeable > .particle:nth-child(22),
-.galaga .gyaraga.explode.one > .explodeable > .particle:nth-child(23) { 
+.galaga .gyaraga.explode.one > .explodeable > .particle:nth-child(23) {
 	top: 5px;
 	left: 17px;
 	height: 2px;
@@ -1423,3 +1423,18 @@ galaga missle.alt {
 	left: -1px;
 }
 /* Gyaraga explosion frame 1 End */
+#timer {
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    color: white;
+    font-size: 7px;
+}
+
+#timer-title {
+    position: absolute;
+    top: 0px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    color: red;
+    font-size: 6px;
+}
